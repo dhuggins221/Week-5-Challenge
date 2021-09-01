@@ -11,3 +11,7 @@ var getTasks = function () {
 var saveTask = function () {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 };
+
+var auditTask = function() {
+
+};
